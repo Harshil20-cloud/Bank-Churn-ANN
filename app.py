@@ -3,10 +3,8 @@
 import streamlit as st
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
 
 # Load saved files
-model = load_model("churn_model.h5")
 scaler = joblib.load("scaler.pkl")
 ct = joblib.load("encoder.pkl")
 
