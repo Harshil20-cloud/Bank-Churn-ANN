@@ -1,8 +1,6 @@
-numpy
-pandas
-scikit-learn
-tensorflow
-keras
 streamlit
-pickle-mixin
+scikit-learn
+pandas
+numpy
+joblib
 
